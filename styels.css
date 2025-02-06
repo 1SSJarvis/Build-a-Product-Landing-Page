@@ -1,0 +1,213 @@
+@media (max-width: 768px) {
+}
+
+#header {
+  justify-content: flex-end;
+  gap: 50px;
+  display: flex;
+  position: fixed;
+  text-align: right;
+  width: 100%;
+  font-size: 25px;
+  background: linear-gradient( rgba(128, 99, 74, 1), rgba(128, 99, 74, 0));
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 30px;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  font-family: system-ui;
+}
+
+#header-img {
+  width: auto;
+  height: auto;
+  max-height: 50px;
+  max-width: 50px;
+}
+
+a {
+  color: snow;
+}
+
+a:hover {
+  color: Maroon;
+  transition-duration: 0.3s;
+}
+
+#nav-bar {
+    top: 0;
+  }
+
+body {
+  height: 100vh;
+  background: BurlyWood;
+}
+
+#page {
+  font-size: 20px;
+  font-family: system-ui;
+  padding-top: 80px;
+  background: BurlyWood;
+}
+
+#page-title, #page-header {
+  text-align: center;
+}
+
+#page-title {
+  font-family: Serif;
+  font-size: 45px;
+  line-height: 20px;
+  color: #613006;
+}
+
+#page-header {
+  font-family: Serif;
+  color: #b06f00;
+  font-size: 35px;
+}
+
+
+#description {
+  padding-top: 30px;
+  margin: auto;
+  width: 50%;
+}
+
+h3 {
+  font-family: monospace;
+  color: snow;
+  line-height: 40px;
+  font-size: 30px;
+}
+
+.about {
+  line-height: 45px;
+}
+
+#video-pic {
+  text-align: center;
+  padding: 30px;
+}
+
+input[type=email] {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+input[type=submit]:hover {
+  transform: scale(1.2);
+  background-color: black;
+  color: white;
+}
+
+#email1 {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+#price {
+  font-size: 30px;
+  margin: auto;
+  padding-left: 30%;
+  padding-bottom: 30px;
+}
+
+#pricing {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  text-align: left;
+  margin: 0 auto;
+  width: 70%;
+  background: linear-gradient( rgba(0, 0, 0, 1), rgba(196,146, 104, 1));
+  border-radius: 20px;
+  padding-bottom: 30px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  transition: transform 0.2s;
+}
+
+#pricing:hover {
+  transform: scale(1.1)
+}
+
+#pricing > div {
+  text-align: left;
+  width: 1000px;
+  border-radius: 20px;
+  color: #f0e6ce;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.purchase-button {
+  background-color: gold;
+  border: none;
+  font-size: 20px;
+  padding: 12px 22px;
+  border-radius: 20px;
+  justify-content: center;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.purchase-button:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+}
+
+#standard {
+  background: linear-gradient( rgba(82, 37, 0, 1), rgba(82, 37, 0, 0));
+}
+
+#deluxe {
+  background: linear-gradient( rgba(138, 53, 0, 1), rgba(138, 53, 0, 0));
+}
+
+#premium {
+  background: linear-gradient( rgba(227, 177, 95, 1), rgba(227, 177, 95, 0));
+}
+
+#button1 {
+  margin-top: 125px;
+}
+
+#button2 {
+  margin-top: 100px;
+}
+
+footer {
+  width: 1000px;
+  text-align: right;
+  margin-left: auto;
+  color: snow;
+  font-size: 20px;
+  font-family: system-ui;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+#footer-info {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
