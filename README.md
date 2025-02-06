@@ -1,0 +1,1 @@
+The third project for the Responsive Web Design certifcate on freeCodeCamp. This really puts your skills to the test by having you create an authentic and professional page that could pass for a reall company.
